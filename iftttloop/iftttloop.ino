@@ -1,14 +1,4 @@
-/* 
-ESP8266 DHT11 sensor to send you temp and humidity notifications via IFTTT
-Github here: https://github.com/Michael-Coetzee/esp8266_dht11.git 
-GPIO16 must be tied to reset to wake!
-Video explains: https://www.youtube.com/watch?v=Q8GT-GBH7ok
-DHT Signal> D3 or GPIO0 
-DHT VCC> 3V
-DHT GND> GND
-RST> D0 for wakeup (GPIO16/WAKE on NodeMCU)
-NOTE: RST line wakeup Jumper must be removed to program!!!!!!!!!!!!!!
-*/
+
 
 #include <WiFi.h>
 const char* ssid     = "Your wifi name";      // SSID of local network---------------------USER Input here
