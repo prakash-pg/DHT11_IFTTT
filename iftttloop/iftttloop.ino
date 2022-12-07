@@ -1,5 +1,3 @@
-
-
 #include <WiFi.h>
 const char* ssid     = "Your wifi name";      // SSID of local network---------------------USER Input here
 const char* password = "your wifi password";   // Password on network -----------------------------------------------------
