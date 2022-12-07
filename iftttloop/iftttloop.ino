@@ -11,8 +11,8 @@ NOTE: RST line wakeup Jumper must be removed to program!!!!!!!!!!!!!!
 */
 
 #include <WiFi.h>
-const char* ssid     = "GNXS-2EC0D0";      // SSID of local network---------------------USER Input here
-const char* password = "9629090034";   // Password on network -----------------------------------------------------
+const char* ssid     = "Your wifi name";      // SSID of local network---------------------USER Input here
+const char* password = "your wifi password";   // Password on network -----------------------------------------------------
 String result;
 float h = 111;
 float t = 222;
@@ -27,7 +27,7 @@ float t = 222;
 
 const char host[ ]        = "maker.ifttt.com";
 const char trigger[ ]     = "dht_11Sensor";
-const char APIKey[ ]      = "X1pWRSCxEm454oL2k_I0XsY9e7GVZN1lXCARohxKTX";
+const char APIKey[ ]      = "your api key";
 
 // Connect pin 1 (on the left) of the sensor to +5V
 // NOTE: If using a board with 3.3V logic like an Arduino Due connect pin 1
