@@ -5,7 +5,7 @@ String result;
 float h = 111;
 float t = 222;
 #include "DHT.h"
-#define DHTPIN 4    // GPIO 0 on ESP12E Lolin is labelled pin D3 
+#define DHTPIN 4    // GPIO 0 on ESP32 is labelled pin D4
 // Uncomment whatever type you're using!
 #define DHTTYPE DHT11   // DHT 11 
 #define DHT_max_temp 45
