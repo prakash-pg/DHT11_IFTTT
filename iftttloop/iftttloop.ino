@@ -10,8 +10,6 @@ float t = 222;
 #define DHTTYPE DHT11   // DHT 11 
 #define DHT_max_temp 45
 #define DHT_max_humid 70
-//#define DHTTYPE DHT22   // DHT 22  (AM2302)
-//#define DHTTYPE DHT21   // DHT 21 (AM2301)
 
 const char host[ ]        = "maker.ifttt.com";
 const char trigger[ ]     = "dht_11Sensor";
